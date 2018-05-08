@@ -13,7 +13,7 @@ foo = &myvar;
 bar = myvar;
 ```
 
-![image](http://www.cplusplus.com/doc/tutorial/pointers/reference_operator.png)
+![image](https://user-images.githubusercontent.com/16880879/39744490-07712210-52d7-11e8-961a-3e458ea9ba06.png)
 
 - 在C++中，保存其他变量的地址的那个变量叫做指针(pointer)。
 
@@ -27,7 +27,7 @@ baz = *foo;
 
 - 上面这个意思就是： baz等于由foo所指向的那个值。
 
-![image](http://www.cplusplus.com/doc/tutorial/pointers/dereference_operator.png)
+![image](https://user-images.githubusercontent.com/16880879/39744525-25c30f76-52d7-11e8-9feb-74271d32be1b.png)
 
 - & is the address-of operator, and can be read simply as "address of" (取地址符)
 - '*' is the dereference operator, and can be read as "value pointed to by" (获取到由这个地址指向的值)
@@ -102,7 +102,7 @@ myptr = &myvar;
 - 指针只有加减法。
 - 它每次增加都是增加它在内存中的大小，并不是仅仅说加1就加1了，加的是它的一个内存大小。
 
-![image](http://www.cplusplus.com/doc/tutorial/pointers/pointer_arithmetics.png)
+![image](https://user-images.githubusercontent.com/16880879/39744548-37f88e96-52d7-11e8-9e1b-707f5662e3c3.png)
 
 - 以下几个操作符的运算顺序要注意一下:
 - 因为加减法比dereference（*）的优先级高，所以 *p++  等于  *(p++) 。
