@@ -7,7 +7,7 @@
 ## 收获
    看一下别人的简洁代码。
    
-```
+```c++
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
