@@ -27,5 +27,4 @@
    
    2.reverse翻转函数。里面填的是迭代器。
    
-   
-   
+   ref: https://www.geeksforgeeks.org/reverse-a-string-in-c-cpp-different-methods/
