@@ -9,14 +9,15 @@
  */
 class Solution {
 public:
-    int mDepth;
+    int mDepth=0;
     int maxDepth(TreeNode* root) {
         getMaxDepth(root, 1);
         return mDepth;
     }
     void getMaxDepth(TreeNode* root, int height){
-        if(root==NULL){
-            mDepth=max(mDepth, height-1);
+        if(root==NULL) return;
+        if(root->left==NULL && root->right==NULL){
+            mDepth=max(mDepth, height);
             return;
         }
         getMaxDepth(root->left, height+1);
